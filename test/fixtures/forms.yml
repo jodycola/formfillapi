@@ -3,11 +3,11 @@
 one:
   first: MyString
   last: MyString
-  company: MyString
   email: MyString
+  company: MyString
 
 two:
   first: MyString
   last: MyString
-  company: MyString
   email: MyString
+  company: MyString

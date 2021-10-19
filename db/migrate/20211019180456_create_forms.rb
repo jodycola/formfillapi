@@ -3,8 +3,8 @@ class CreateForms < ActiveRecord::Migration[6.1]
     create_table :forms do |t|
       t.string :first
       t.string :last
-      t.string :company
       t.string :email
+      t.string :company
 
       t.timestamps
     end
