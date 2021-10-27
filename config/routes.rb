@@ -4,4 +4,10 @@ Rails.application.routes.draw do
   get '/forms', to: 'forms#forms'
   post '/', to: 'forms#create'
 
+  # Query Routes
+  get '/queries', to: 'queries#get_queries'
+  post '/query/:query', to: 'queries#search_for'
+
+  # Results Routes
+
 end
