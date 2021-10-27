@@ -6,8 +6,8 @@ class QueriesController < ApplicationController
     end
 
     def get_queries
-        @queries = Query.all
-        render json: @queries
+        @query = Query.last
+        render json: @query
     end
 
 end
